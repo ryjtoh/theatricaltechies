@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './navBar';
-import RssFeed from './feedPage/rssFeed';
-import CompostBins from './homePage/compostBins';
-import Intro from './homePage/intro';
+// import './App.css';
+import NavBar from './NavBar';
+import RssFeed from './feedPage/RssFeed';
+import CompostBins from './homePage/CompostBins';
+import Intro from './homePage/Intro';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
