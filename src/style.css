@@ -1,0 +1,40 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    font-family: 'Montesserat', sans-serif;
+    background-color: #357560;
+}
+
+.nav-links > a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* make white bar appear when hovering over page options */
+.nav-links a:hover {
+    border-bottom: 3px solid white;
+  }
+
+.pageTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    font-family: 'Montesserat', sans-serif;
+    color: black;
+}
+
+body{
+    background-color: #C4D5C5;
+}

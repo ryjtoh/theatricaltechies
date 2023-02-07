@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Intro() {
   return (
-    <div>
+    <div className='pageTitle'>
       <h1>Intro</h1>
     </div>
   );

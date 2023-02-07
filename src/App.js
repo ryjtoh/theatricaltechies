@@ -1,9 +1,10 @@
 // import './App.css';
-import NavBar from './NavBar';
-import RssFeed from './feedPage/RssFeed';
-import CompostBins from './homePage/CompostBins';
-import Intro from './homePage/Intro';
+import NavBar from './Components/NavBar';
+import RssFeed from './Components/feedPage/RssFeed';
+import CompostBins from './Components/homePage/CompostBins';
+import Intro from './Components/homePage/Intro';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './style.css';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<NavBar />}>
             <Route path="/" element={<Intro />} />
-            <Route path="rssFeed" element={<RssFeed />} />
+            <Route path="CompostBins" element={<CompostBins />} />
+            <Route path="RssFeed" element={<RssFeed />} />
           </Route>
         </Routes>
       </Router>
