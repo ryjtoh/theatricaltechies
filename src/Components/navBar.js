@@ -8,7 +8,9 @@ import { NavLink } from 'react-router-dom';
 
 const NavBarStyle = {
   height: "50px",
-  justifyContent: "left"
+  justifyContent: "left",
+  borderRadius: "0px 0px 15px 15px",
+  overflow: "hidden"
 }
 
 export default function NavBar() {
