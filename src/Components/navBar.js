@@ -6,10 +6,15 @@ import CompostBins from './homePage/compostBins';
 import Intro from './homePage/intro';
 import { NavLink } from 'react-router-dom';
 
+const NavBarStyle = {
+  height: "50px",
+  justifyContent: "left"
+}
+
 export default function NavBar() {
   return (
     <div className='nav-container'> 
-      <div className='nav-links'>
+      <div className='nav-links' style={NavBarStyle}>
         <Link to='/'>Home</Link>
         <Link to='/CompostBins'>Compost Bins</Link>
         <Link to='/RssFeed'>RSS Feed</Link>
