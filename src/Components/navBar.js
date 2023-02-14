@@ -1,9 +1,9 @@
 import React from 'react';
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import RssFeed from './feedPage/RssFeed';
-import CompostBins from './homePage/CompostBins';
-import Intro from './homePage/Intro';
+import RssFeed from './feedPage/rssFeed';
+import CompostBins from './homePage/compostBins';
+import Intro from './homePage/intro';
 import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
