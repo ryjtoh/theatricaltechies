@@ -8,14 +8,13 @@
 .nav-links {
     display: flex;
     flex-direction: row;
-    align-items: right;
-    justify-content: right;
+    justify-content: left;
     font-family: 'Montesserat', sans-serif;
     background-color: #357560;
 }
 
 .nav-links > a {
-    margin: 10px;
+    padding: .5rem;
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
@@ -38,3 +37,20 @@
 body{
     background-color: #C4D5C5;
 }
+
+
+/* set image size  */
+.logo-image {
+height: 20px;;
+
+}
+
+/* add padding for desktop; remove for mobile */
+@media (min-width: 600px) {
+    .introP {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+  }
+
+  

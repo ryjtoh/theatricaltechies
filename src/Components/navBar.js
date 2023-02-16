@@ -18,10 +18,10 @@ const NavBarStyle = {
 export default function NavBar() {
   return (
     <div className='nav-container'> 
-      <div className='nav-links' style={NavBarStyle}> 
+      <div className='nav-links'> 
         <Link to='/'>
           <div style={{ display: "flex"}}> {/* TODO: Fill out inline styles for the logo + title */}
-            <img src='../../public/compostlogo.png' alt='compostlogo'></img> {/* Idk why this doesn't work */}
+            <img src='favicon.ico' alt='compostlogo' height ="30" width="30"></img> {/* Idk why this doesn't work */}
             <h2>Sortable</h2>
           </div>
         </Link>
@@ -37,3 +37,5 @@ export default function NavBar() {
     </div>
   );
 }
+
+
