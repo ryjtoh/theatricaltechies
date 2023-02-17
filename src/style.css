@@ -34,23 +34,15 @@
     color: black;
 }
 
-body{
-    background-color: #C4D5C5;
-}
-
-
-/* set image size  */
-.logo-image {
-height: 20px;;
-
+body {
+    background-color: #FFFFFF;
 }
 
 /* add padding for desktop; remove for mobile */
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
     .introP {
         margin-left: 8rem;
         margin-right: 8rem;
     }
-  }
+  } */
 
-  

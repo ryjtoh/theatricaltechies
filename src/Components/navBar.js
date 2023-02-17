@@ -21,7 +21,7 @@ export default function NavBar() {
       <div className='nav-links'> 
         <Link to='/'>
           <div style={{ display: "flex"}}> {/* TODO: Fill out inline styles for the logo + title */}
-            <img src='favicon.ico' alt='compostlogo' height ="30" width="30"></img> {/* Idk why this doesn't work */}
+            <img src='favicon.ico' alt='sortable logo' height ="40" width="40"></img> {/* Idk why this doesn't work */}
             <h2>Sortable</h2>
           </div>
         </Link>
