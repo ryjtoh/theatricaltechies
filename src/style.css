@@ -38,6 +38,32 @@ body {
     background-color: #FFFFFF;
 }
 
+/* for intro page content */
+.introContainer {
+    display: flex;
+}
+
+.introTag, .introTag2 {
+    color: #357560;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.introParagraph {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.introTag {
+    margin-bottom: none;
+    font-size: xx-large;
+}
+.introTag2 {
+    margin-bottom: none;
+    font-size: large;
+}
+
 /* add padding for desktop; remove for mobile */
 /* @media (min-width: 600px) {
     .introP {
@@ -45,4 +71,3 @@ body {
         margin-right: 8rem;
     }
   } */
-
