@@ -8,11 +8,11 @@ import { NavLink } from 'react-router-dom';
 
 const NavBarStyle = {
   height: "80px",
-  justifyContent: "left",
+  //justifyContent: "left",
   borderRadius: "0px 0px 15px 15px",
   overflow: "hidden",
   color: "white",
-  paddingLeft: "50px"
+  //paddingLeft: "50px"
 }
 
 export default function NavBar() {
@@ -20,9 +20,9 @@ export default function NavBar() {
     <div className='nav-container'> 
       <div className='nav-links' style={NavBarStyle}> 
         <Link to='/'>
-          <div style={{ display: "flex", backgroundColor: "#e9ede6", borderRadius:"5%", padding: "10px" }}> {/* TODO: Fill out inline styles for the logo + title */}
-          <img src={process.env.PUBLIC_URL + '/favicon.ico'} alt='compostlogo' style={{ width: '30px', height: '30px' }} /> {/* Idk why this doesn't work */}
-            <h2 style={{ color:"#303b2a"}} >Sortable</h2>
+          <div className = 'brandLogo'style={{ display: "flex", backgroundColor:'#C4D5C5', borderRadius:"5%", padding: "5px", borderRadius: '15px'}}> 
+            <img className = 'favicon'src={process.env.PUBLIC_URL + '/favicon.ico'} alt='compostlogo' style={{ width: '30px', height: '30px'}} /> {/* Idk why this doesn't work */}
+            <h2 className = 'brandName' style={{ color:"#357560", paddingLeft: '5px', display: 'flex', alignItems: 'center'}} >Sortable</h2>
           </div>
         </Link>
         <Link to='/'>Home</Link>
