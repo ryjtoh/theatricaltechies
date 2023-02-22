@@ -38,3 +38,31 @@
 body{
     background-color: #C4D5C5;
 }
+
+.drag-and-drop {
+    display: flex;
+  }
+  
+  .draggable-container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .droppable-container {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .droppable-container.active {
+    opacity: 0.5;
+  }
+  

@@ -5,7 +5,7 @@ import RssFeed from './feedPage/rssFeed';
 import CompostBins from './homePage/compostBins';
 import Intro from './homePage/intro';
 import { NavLink } from 'react-router-dom';
-import compostLogo from "../imgs"
+//import compostLogo from "../imgs"
 
 const NavBarStyle = {
   height: "50px",

@@ -1,45 +1,115 @@
-import React from 'react';
-import { DragDropContainer, DropTarget } from "react-drag-drop-container";
+import React, { useState } from "react";
 
-function handleDragStart(e) {
-  this.style.opacity = '0.4';
-}
+const CompostBins = () => {
+  const [containers, setContainers] = useState([
+    { id: 1, content: "Compost Item 1" },
+    { id: 2, content: "Compost Item 2" },
+    { id: 3, content: "Compost Item 3" },
+    { id: 4, content: "Compost Item 4"}
+  ]);
+  const [dragging, setDragging] = useState(false);
 
-function handleDragEnd(e) {
-  this.style.opacity = '1';
-}
+  const handleDragStart = (event, id) => {
+    setDragging(id);
+  };
 
-function handleDrop(e) {
-  e.stopPropagation(); // stops the browser from redirecting.
-  return false;
-}
+  const handleDragEnd = (event) => {
+    setDragging(false);
+  };
 
-const boxStyle = {
-  border: "3px solid #666",
-  backgroundColor: "#ddd",
-  borderRadius: ".5em",
-  padding: "10px",
-  cursor: "move"
-}
+  const handleDrop1 = (event) => {
+    event.preventDefault();
+    if (dragging === 1) {
+      const updatedContainers = containers.filter(
+        (container) => container.id !== dragging
+      );
+      setContainers(updatedContainers);
+    }
+    setDragging(false);
+  };
 
+  const handleDrop2 = (event) => {
+    event.preventDefault();
+    if (dragging === 2) {
+      const updatedContainers = containers.filter(
+        (container) => container.id !== dragging
+      );
+      setContainers(updatedContainers);
+    }
+    setDragging(false);
+  };
 
-export default function CompostBins() {
-  let items = document.querySelectorAll('.container .box');
-  items.forEach(function (item) {
-    item.addEventListener('dragstart', handleDragStart);
-    item.addEventListener('dragend', handleDragEnd);
-    item.addEventListener('drop', handleDrop)
-  });
+  const handleDrop3 = (event) => {
+    event.preventDefault();
+    if (dragging === 3) {
+      const updatedContainers = containers.filter(
+        (container) => container.id !== dragging
+      );
+      setContainers(updatedContainers);
+    }
+    setDragging(false);
+  };
+
+  const handleDrop4 = (event) => {
+    event.preventDefault();
+    if (dragging === 4) {
+      const updatedContainers = containers.filter(
+        (container) => container.id !== dragging
+      );
+      setContainers(updatedContainers);
+    }
+    setDragging(false);
+  };
+
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
+
   return (
-    <div className='pageTitle'>
-        <div class="container">
-          <div draggable="true" class="box" style={boxStyle}>A</div>
-          <div draggable="true" class="box"style={boxStyle}>B</div>
-          <div draggable="true" class="box"style={boxStyle}>C</div>
-        </div>
-
-        {/*https://css-tricks.com/creating-a-parking-game-with-the-html-drag-and-drop-api/*/}
-
+    <div className="drag-and-drop">
+      <div className="containers">
+        {containers.map((container) => (
+          <div
+            key={container.id}
+            className="container"
+            draggable="true"
+            onDragStart={(event) => handleDragStart(event, container.id)}
+            onDragEnd={handleDragEnd}
+          >
+            {container.content}
+          </div>
+        ))}
+      </div>
+      <div
+        className={`droppable-container ${dragging ? "active" : ""}`}
+        onDrop={handleDrop1}
+        onDragOver={handleDragOver}
+      >
+        1
+      </div>
+      <div
+        className={`droppable-container ${dragging ? "active" : ""}`}
+        onDrop={handleDrop2}
+        onDragOver={handleDragOver}
+      >
+        2
+      </div>
+      <div
+        className={`droppable-container ${dragging ? "active" : ""}`}
+        onDrop={handleDrop3}
+        onDragOver={handleDragOver}
+      >
+        3
+      </div>
+      <div
+        className={`droppable-container ${dragging ? "active" : ""}`}
+        onDrop={handleDrop4}
+        onDragOver={handleDragOver}
+      >
+        4
+      </div>
     </div>
   );
-}
+};
+
+export default CompostBins;
