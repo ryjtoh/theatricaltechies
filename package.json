@@ -7,7 +7,10 @@
     "cra-template": "1.2.0",
     "firebase": "^9.16.0",
     "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
+    "react-drag-drop-container": "^6.1.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1"
   },

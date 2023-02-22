@@ -5,6 +5,7 @@ import CompostBins from './Components/homePage/compostBins';
 import Intro from './Components/homePage/intro';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.css';
+import { DragDropContainer, DropTarget } from "react-drag-drop-container";
 
 function App() {
   return (

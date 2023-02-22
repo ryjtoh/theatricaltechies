@@ -5,6 +5,7 @@ import RssFeed from './feedPage/rssFeed';
 import CompostBins from './homePage/compostBins';
 import Intro from './homePage/intro';
 import { NavLink } from 'react-router-dom';
+import compostLogo from "../imgs"
 
 const NavBarStyle = {
   height: "50px",
@@ -21,7 +22,7 @@ export default function NavBar() {
       <div className='nav-links' style={NavBarStyle}> 
         <Link to='/'>
           <div style={{ display: "flex"}}> {/* TODO: Fill out inline styles for the logo + title */}
-            <img src='../../public/compostlogo.png' alt='compostlogo'></img> {/* Idk why this doesn't work */}
+            <img src={""} alt='compostlogo'/> {/* Idk why this doesn't work */}
             <h2>Sortable</h2>
           </div>
         </Link>
