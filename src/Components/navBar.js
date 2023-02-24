@@ -5,7 +5,8 @@ import BlogFeed from './feedPage/blogFeed';
 import CompostBins from './homePage/compostBins';
 import Intro from './homePage/intro';
 import { NavLink } from 'react-router-dom';
-
+import { useState } from "react";
+import style from '../style.css';
 const NavBarStyle = {
   height: "80px",
   //justifyContent: "left",
@@ -25,9 +26,11 @@ export default function NavBar() {
             <h2 className = 'brandName' style={{ color:"#357560", paddingLeft: '5px', display: 'flex', alignItems: 'center'}} >Sortable</h2>
           </div>
         </Link>
-        <Link to='/'>Home</Link>
-        <Link to='/CompostBins'>Compost Bins</Link>
-        <Link to='/BlogFeed'>Blog Feed</Link>
+        <div className='pageLinks'>
+          <Link to='/'>Home</Link>
+          <Link to='/CompostBins'>Compost Bins</Link>
+          <Link to='/BlogFeed' className='test'>Blog Feed</Link>
+        </div>
       </div>
       <Routes>
         <Route path='/' element={<Intro />} />

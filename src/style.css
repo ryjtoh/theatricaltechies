@@ -41,6 +41,21 @@ body{
     font-size: 1.25rem;
 }
 
+.pageLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-family: 'Montesserat', sans-serif;
+  background-color: #357560;
+}
+.pageLinks > a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
 /* make white bar appear when hovering over page options */
 .nav-links a:hover {
     border-bottom: 3px solid white;
@@ -168,3 +183,38 @@ p.introTag2 {
   }
 
   /* Compost Bin END */
+
+
+
+
+  /* media queries */
+  @media screen and (max-width: 600px) {
+    p.introTag {
+      margin-bottom: 0;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+    p.introTag2 {
+      margin-bottom: 3rem;
+      font-weight: 400;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+    .introText {
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
