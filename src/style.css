@@ -1,3 +1,23 @@
+/* general page styling START */
+.pageTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  font-family: 'Montesserat', sans-serif;
+  color: black;
+}
+
+body{
+  background-color: #C4D5C5;
+}
+
+/* general page styling END */
+
+/* nav bar styling START */
+.brandName {
+  margin-bottom: 0;
+}
 .nav-container {
     display: flex;
     flex-direction: column;
@@ -8,8 +28,8 @@
 .nav-links {
     display: flex;
     flex-direction: row;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: left;
     font-family: 'Montesserat', sans-serif;
     background-color: #357560;
 }
@@ -21,23 +41,66 @@
     font-size: 1.25rem;
 }
 
+.pageLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-family: 'Montesserat', sans-serif;
+  background-color: #357560;
+}
+.pageLinks > a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
 /* make white bar appear when hovering over page options */
 .nav-links a:hover {
     border-bottom: 3px solid white;
-  }
-
-.pageTitle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
-    font-family: 'Montesserat', sans-serif;
-    color: black;
 }
 
-body{
-    background-color: #C4D5C5;
+
+/* nav bar styling END */
+
+/* for intro page content */
+.introContainer {
+  display: flex;
 }
+
+.introTag, .introTag2 {
+  color: #357560;
+  font-weight: bold;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.introText {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+.introTag {
+  margin-top: 3rem;
+  font-size: xx-large;
+}
+p.introTag {
+  margin-bottom: 0;
+}
+p.introTag2 {
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+.introTag2 {
+  font-size: x-large;
+}
+
+
+
 
 
 /* Blog Feed CSS */
@@ -95,4 +158,70 @@ body{
     color: green;
   }
 
-  /* Blog Feed End */
+  /* Blog Feed END */
+
+
+  /* Compost Bin START */
+  .drag-and-drop {
+    display: flex;
+  }
+ 
+  .draggable-container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .droppable-container {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .droppable-container.active {
+    opacity: 0.5;
+  }
+
+  /* Compost Bin END */
+
+
+
+
+  /* media queries */
+  @media screen and (max-width: 600px) {
+    p.introTag {
+      margin-bottom: 0;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+    p.introTag2 {
+      margin-bottom: 3rem;
+      font-weight: 400;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+    .introText {
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
