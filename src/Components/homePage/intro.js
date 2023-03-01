@@ -4,10 +4,7 @@ import React from 'react';
 export default function Intro() {
   return (
     <div className='pageTitle'>
-      <div className='introContainer'>
-{/*           <div className='introImage'>               COMMENTING OUT FOR NOW KINDA UGLY
-            <img src='intropage.png' height="200" width="280" alt='picture of heart shaped composted dirt'/>
-          </div> */} 
+      <div className='introContainer'>           
           <div className='introParagraph'>
             <p className="introTag">
               Composting is a global issue.
@@ -21,7 +18,28 @@ export default function Intro() {
               You will only be able to drop items into a bin if it is the correct one.  
             </p>
           </div>
-        </div>
+      </div>
+      <div className='whyItMatters'>               
+            <img src='undraw_Throw_away_re_x60k.png' alt='image of someone throwing something away in a trash can' height="300" width="450" />
+          <div className='sectionParagraph'>
+            <h1>Why it Matters?</h1>
+            <p>place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
+          </div>
+      </div> 
+      <div className='ourGoal'> 
+        <div className='sectionParagraphRight'>
+            <h1>What is Our Goal?</h1>
+            <p>place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
+        </div>              
+        <img src='goalImage.png' alt='image of people throwing at a target' height="350" width="400" />
+      </div> 
+      <div className='ourInspiration'>               
+            <img src='inspirationImage.png' alt='image of someone person being inspired' height="350" width="600" />
+          <div className='sectionParagraph'>
+            <h1>Our Insipiration</h1>
+            <p>place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
+          </div>
+      </div> 
     </div>
   );
 }

@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #C4D5C5;
+  background-color: white;
 }
 
 /* general page styling END */
@@ -99,8 +99,33 @@ p.introTag2 {
   font-size: x-large;
 }
 
+.whyItMatters, .ourGoal, .ourInspiration {
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.sectionParagraph h1 {
+  color:#357560;
+  font-weight: bold;
+  font-family: 'Montesserat', sans-serif;
+}
+.sectionParagraph {
+  font-family: 'Montesserat', sans-serif;
+  font-weight: 100;
+}
 
-
+/* when image is on right align text to right */
+.sectionParagraphRight h1 {
+  text-align: right;
+  color:#357560;
+  font-weight: bold;
+  font-family: 'Montesserat', sans-serif;
+}
+.sectionParagraphRight p {
+  text-align: right;
+  font-weight: 100;
+}
 
 
 /* Blog Feed CSS */
