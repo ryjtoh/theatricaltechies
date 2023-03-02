@@ -28,7 +28,7 @@ export default function NavBar() {
         </Link>
         <div className='pageLinks'>
           <Link to='/'>Home</Link>
-          <Link to='/CompostBins'>Compost Bins</Link>
+          <Link to='/CompostBins'>Sort It!</Link>
           <Link to='/BlogFeed' className='test'>Blog Feed</Link>
         </div>
       </div>

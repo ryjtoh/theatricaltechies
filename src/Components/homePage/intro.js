@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 
 export default function Intro() {
@@ -6,23 +8,24 @@ export default function Intro() {
     <div className='pageTitle'>
       <div className='introContainer'>           
           <div className='introParagraph'>
-            <p className="introTag">
-              Composting is a global issue.
-            </p>
+            <h1 className="introTag">
+              <img src ='favicon.ico' height='100' width = '100'/>SORTABLE
+            </h1>
             <p className="introTag2">
-              Sortable aims to ensure sustainable and informed consumption and production patterns.
+              Sortable aims to serve as a resource to educate and support sustainable and informed consumption and production patterns. 
+              Try our composting game <i>Sort It</i> to learn more about sustainable composting practices.
             </p>
-            <p className='introText'>
-              Use Sortable to put your composting knowledge to the test!
-              Drag and drop each item into the bin based on how long you think it will take to compost.
-              You will only be able to drop items into a bin if it is the correct one.  
-            </p>
+            <div className='buttonDiv'>
+              <Link to='/compostBins'>
+                <button className='button'><u>Play Sort It!</u></button>
+              </Link>
+            </div>
           </div>
       </div>
       <div className='whyItMatters'>               
             <img src='undraw_Throw_away_re_x60k.png' alt='image of someone throwing something away in a trash can' height="300" width="450" />
           <div className='sectionParagraph'>
-            <h1>Why it Matters?</h1>
+            <h1>Why does it Matter?</h1>
             <p>place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
           </div>
       </div> 
@@ -37,7 +40,7 @@ export default function Intro() {
             <img src='inspirationImage.png' alt='image of someone person being inspired' height="350" width="600" />
           <div className='sectionParagraph'>
             <h1>Our Insipiration</h1>
-            <p>place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
+            <p>SDG INFO HERE place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>
           </div>
       </div> 
     </div>
