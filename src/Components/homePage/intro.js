@@ -37,7 +37,7 @@ export default function Intro() {
         <img src='goalImage.png' alt='image of people throwing at a target' height="350" width="400" />
       </div> 
       <div className='ourInspiration'>               
-            <img src='inspirationImage.png' alt='image of someone person being inspired' height="350" width="600" />
+            <img src='inspirationImage.png' alt='image of someone person being inspired' height="350" width="400" />
           <div className='sectionParagraph'>
             <h1>Our Insipiration</h1>
             <p>SDG INFO HERE place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder place holder</p>

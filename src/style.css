@@ -4,11 +4,11 @@
   flex-direction: column;
   align-items: center;
   margin: 1rem;
-  font-family: 'Montesserat', sans-serif;
+  font-family: "Montesserat", sans-serif;
   color: black;
 }
 
-body{
+body {
   background-color: white;
 }
 
@@ -19,26 +19,26 @@ body{
   margin-bottom: 0;
 }
 .nav-container {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: right;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    font-family: 'Montesserat', sans-serif;
-    background-color: #357560;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-family: "Montesserat", sans-serif;
+  background-color: #357560;
 }
 
 .nav-links > a {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
 }
 
 .pageLinks {
@@ -46,7 +46,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: right;
-  font-family: 'Montesserat', sans-serif;
+  font-family: "Montesserat", sans-serif;
   background-color: #357560;
 }
 .pageLinks > a {
@@ -58,9 +58,8 @@ body{
 
 /* make white bar appear when hovering over page options */
 .nav-links a:hover {
-    border-bottom: 3px solid white;
+  border-bottom: 3px solid white;
 }
-
 
 /* nav bar styling END */
 
@@ -124,7 +123,9 @@ p.introTag2 {
   border-radius: 14px;
 }
 
-.whyItMatters, .ourGoal, .ourInspiration {
+.whyItMatters,
+.ourGoal,
+.ourInspiration {
   display: flex;
   align-items: center;
   padding-left: 10rem;
@@ -132,126 +133,127 @@ p.introTag2 {
 }
 
 .sectionParagraph h1 {
+  color: #357560;
+  font-family: "Montesserat", sans-serif;
   color:#357560;
   font-weight: 400;
   font-family: 'Montesserat', sans-serif;
 }
 
 .sectionParagraph {
-  font-family: 'Montesserat', sans-serif;
+  font-family: "Montesserat", sans-serif;
   font-weight: 100;
 }
 
 /* when image is on right align text to right */
 .sectionParagraphRight h1 {
   text-align: right;
-  color:#357560;
+  color: #357560;
   font-weight: 400;
-  font-family: 'Montesserat', sans-serif;
+  font-family: "Montesserat", sans-serif;
 }
 .sectionParagraphRight p {
   text-align: right;
   font-weight: 100;
 }
 
-
 /* Blog Feed CSS */
 .card-container {
-    display: flex;
-  }
-  
-  .card {
-    padding: 16px;
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    background-color: #fff;
-    margin: 10px;
-  }
-  
-  .card-image {
-    width: 128px;
-    height: 128px;
-  }
-  
-  .card-content {
-    margin-left: 16px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card-title {
-    margin-top: 8px;
-  }
-  
-  .card-description {
-    margin-top: 4px;
-    color: #555;
-  }
+  display: flex;
+}
 
-  .verticalCardList {
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    margin-top: 20px;
-  }
-  
-  .verticalCardList > * {
-    margin: 10px;
-    border-radius: 10px;
-  }
+.card {
+  padding: 16px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px;
+}
 
-  a {
-    color: black;
-  }
-  
-  a:hover {
-    color: green;
-  }
+.card-image {
+  width: 128px;
+  height: 128px;
+}
 
-  /* Blog Feed END */
+.card-content {
+  margin-left: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
+.card-title {
+  margin-top: 8px;
+}
 
-  /* Compost Bin START */
-  .drag-and-drop {
-    display: flex;
-  }
- 
-  .draggable-container {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
- 
-  .droppable-container {
-    width: 100px;
-    height: 100px;
-    border: 2px dashed black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
- 
-  .droppable-container.active {
-    opacity: 0.5;
-  }
+.card-description {
+  margin-top: 4px;
+  color: #555;
+}
 
-  /* Compost Bin END */
+.verticalCardList {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  margin-top: 20px;
+}
 
+.verticalCardList > * {
+  margin: 10px;
+  border-radius: 10px;
+}
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: green;
+}
+
+/* Blog Feed END */
+
+/* Compost Bin START */
+
+.containers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20rem;
+  margin-top: 5rem;
+}
+
+.draggable-container {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.droppable-container {
+  width: 100px;
+  height: 100px;
+  border: 6px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.droppable-container.active {
+  opacity: 0.5;
+}
+
+/* Compost Bin END */
 
 
   /* media queries */
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 900px) {
     .introContainer {
       padding: 20px;
     }
-
     .introTag {
       font-size: 2.5em;
       align-items: center;
@@ -305,15 +307,3 @@ p.introTag2 {
     }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
