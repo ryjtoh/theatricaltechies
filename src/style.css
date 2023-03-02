@@ -135,9 +135,7 @@ p.introTag2 {
 .sectionParagraph h1 {
   color: #357560;
   font-family: "Montesserat", sans-serif;
-  color:#357560;
   font-weight: 400;
-  font-family: 'Montesserat', sans-serif;
 }
 
 .sectionParagraph {
@@ -215,6 +213,12 @@ a:hover {
 /* Blog Feed END */
 
 /* Compost Bin START */
+.instructions {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 3rem;
+  text-align: center;
+}
 
 .containers {
   display: flex;

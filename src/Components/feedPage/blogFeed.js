@@ -97,7 +97,7 @@ const VerticalCardList = () => {
   return (
     <div>
       <Box sx={{ my: 5, mx: 5}}>
-        <Typography  variant="title" textAlign="center" sx={{ fontSize: '300%' }}>Composting Blog Resources</Typography>
+        <Typography  variant="title" textAlign="center" color='#357560'sx={{ fontSize: '300%' }}>COMPOSTING BLOG RESOURCES</Typography>
         <Typography variant="subtitle1" sx={{ my: 2, fontSize: '110%'}}>
           Our team compiled a set of composting reources to help you with your composting journey. The resources vary from local blogs on how to set up your own composting bin to international blogs on how to composting operation, 
           to government data on Seattle composting and other national organizations working to help level the composting education in America.

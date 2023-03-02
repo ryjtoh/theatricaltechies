@@ -70,6 +70,13 @@ const CompostBins = () => {
 
   return (
     <>
+      <div className="instructions">
+        <div className="sectionParagraph">
+          <h1>INSTRUCTIONS</h1>
+          <p>It's time to practice composting! Drag each item into the correct compost bin based on how long you think it will take to compost. 
+            If the item is placed correctly, the item will disappear and be composted otherwise the item will remain in the same place. </p>
+        </div>
+      </div>
       <div className="containers">
         {containers.map((container) => (
           <div
