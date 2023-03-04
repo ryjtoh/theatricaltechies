@@ -36,10 +36,10 @@ RSS Feed is to users a handful of resources on recycling and composting. This wi
 
 ### Prototypes
 Wireframes
-<img src='src/Prototypes/Low1'>
-<img src='src/Prototypes/Low2'>
-<img src='src/Prototypes/Low3'>
-<img src='src/Prototypes/Low4'>
+<img src='src/Prototypes/Low1.png'>
+<img src='src/Prototypes/Low2.png'>
+<img src='src/Prototypes/Low3.png'>
+<img src='src/Prototypes/Low4.png'>
 
 Low-Fidelity Prototypes
 <img src='src/Prototypes/Home.png'>
