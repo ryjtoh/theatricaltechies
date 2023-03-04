@@ -36,6 +36,7 @@ RSS Feed is to users a handful of resources on recycling and composting. This wi
 
 ### Prototypes
 Wireframes
+<br/>
 <img src='src/Prototypes/Low1.png'>
 <img src='src/Prototypes/Low2.png'>
 <img src='src/Prototypes/Low3.png'>
