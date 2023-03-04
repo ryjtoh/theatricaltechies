@@ -35,7 +35,16 @@ RSS Feed is to users a handful of resources on recycling and composting. This wi
 
 
 ### Prototypes
+Wireframes
+<img src='src/Prototypes/Low1'>
+<img src='src/Prototypes/Low2'>
+<img src='src/Prototypes/Low3'>
+<img src='src/Prototypes/Low4'>
 
+Low-Fidelity Prototypes
+<img src='src/Prototypes/Home.png'>
+<img src='src/Prototypes/Feedback.png'>
+<img src='src/Prototypes/Feed.png'>
 
 ### What Could be Improved / Next Steps
 If we had more time, it would have been nice if users were able to add compost items on their end or upon their request for the Drag and Drop game. In addition, it would be beneficial to have the RSS Feed page updated automatically so that users can keep up with the most recent articles regarding compost and recycling.
