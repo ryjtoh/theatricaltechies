@@ -32,7 +32,21 @@ Drag and Drop Game is a quiz-like structure where users are able to drag waste i
 RSS Feed is to users a handful of resources on recycling and composting. This will allow users to click on an article or blog they are interested in and learn about composting more in-depth. 
 
 ### Components and Testing Protocols
+Prior to coding our MVP, we created a Figma prototype for user testing, which focused on user navigation and usability. Our primary feature, the Drag and Drop game, was visualized using static wireframes to explain the concept. We conducted five prototype user tests for feedback and how to improve our system and design before coding.
 
+MVP testing consisted of seven users (the same five users from the prototype test and two new users) to test our two primary features: the Drag and Drop game and the RSS feed. We deemed the test successful for the Drag and Drop game, if the user interacted with the game with no technical bugs and if they could understand and learn from the experience. For the RSS feed, if users could scroll and interact with the different articles without any issues, it was labeled as a successful test.
+
+User tests were conducted using a script for each feature:
+
+Drag and Drop Game
+* Navigate to the home page 
+* Click on the "Let's Sort!" button to play the Drag and Drop game
+* Play the game by sorting items into their respective compost bins by dragging and dropping them into each bin
+
+RSS Feed:
+* Navigate to the RSS feed on the navbar
+* Browse the RSS feed
+* Click on any article(s) that seem interesting
 
 ### Prototypes
 Wireframes
@@ -45,7 +59,7 @@ Wireframes
 Low-Fidelity Prototypes
 <img src='src/Prototypes/Home.png'>
 <img src='src/Prototypes/Feedback.png'>
-<img src='src/Prototypes/Feed.png'>
+<img src='src/Prototypes/Feed.png'> 
 
 ### What Could be Improved / Next Steps
 If we had more time, it would have been nice if users were able to add compost items on their end or upon their request for the Drag and Drop game. In addition, it would be beneficial to have the RSS Feed page updated automatically so that users can keep up with the most recent articles regarding compost and recycling.
