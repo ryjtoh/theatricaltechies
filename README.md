@@ -21,6 +21,9 @@ Our group conducted three user interviews with close friends based in Seattle to
 
 Based on our concrete findings, we defined two user personas: a UW undergraduate student and a 42-year-old marketing director based in Seattle. One of their key pain points is that they do not know the standard for composting and its process. In order to address their pain points, we brainstormed some features and prioritized them in the below section.
 
+<img src='src/Persona/Persona1.png'>
+<img src='src/Persona/Persona2.png'>
+
 ### Features and Prioritization
 We initially brainstormed about eight features for our project and narrowed them down to two main features within the given time and scope of the project. Our two main features are 1) Drag and Drop Game and 2) RSS Feed.
 
