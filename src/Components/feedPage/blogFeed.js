@@ -97,7 +97,7 @@ const blogData = [
     title: ' A Beginners Guide to Composting | One Small Step',
     summary: ' What is compost? How does composting work? Lucy Biggers is here to answer all your questions to show you what happens to our food waste — welcome to Composting 101.',
     source: <a href="https://www.youtube.com/watch?v=XfuJJNGuS0Q"> NowThis Earth </a>,
-    helpful: ' #Student #Seattle #Community #College #Home #Resources',
+    helpful: ' #Seattle #Community #Home #Beginner #Impact',
   },
 ];
 
