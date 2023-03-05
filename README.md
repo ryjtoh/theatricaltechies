@@ -31,6 +31,13 @@ Drag and Drop Game is a quiz-like structure where users are able to drag waste i
 
 RSS Feed is to users a handful of resources on recycling and composting. This will allow users to click on an article or blog they are interested in and learn about composting more in-depth. 
 
+### Wireframes
+<br/>
+<img src='src/Prototypes/Low1.png'>
+<img src='src/Prototypes/Low2.png'>
+<img src='src/Prototypes/Low3.png'>
+<img src='src/Prototypes/Low4.png'>
+
 ### Components and Testing Protocols
 Prior to coding our MVP, we created a Figma prototype for user testing, which focused on user navigation and usability. Our primary feature, the Drag and Drop game, was visualized using static wireframes to explain the concept. We conducted five prototype user tests for feedback and how to improve our system and design before coding.
 
@@ -48,17 +55,10 @@ RSS Feed:
 * Browse the RSS feed
 * Click on any article(s) that seem interesting
 
-### Prototypes
-Wireframes
-<br/>
-<img src='src/Prototypes/Low1.png'>
-<img src='src/Prototypes/Low2.png'>
-<img src='src/Prototypes/Low3.png'>
-<img src='src/Prototypes/Low4.png'>
+One of the main feedback points we received from the users were to have somewhat immediate feedback on whether or not the items are sorted correctly. Giving user feedback would help educate users more effectively and achieve their goals easily.
 
-Low-Fidelity Prototypes
+### Low-Fidelity Prototypes
 <img src='src/Prototypes/Home.png'>
-<img src='src/Prototypes/Feedback.png'>
 <img src='src/Prototypes/Feed.png'> 
 
 ### What Could be Improved / Next Steps
