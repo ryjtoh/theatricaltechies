@@ -91,13 +91,21 @@ const blogData = [
     source: <a href="https://www.washington.edu/news/2015/12/16/composting-food-waste-remains-your-best-option-says-uw-study/"> UW News </a>,
     helpful: ' #Student #Seattle #Community #College #Home #Resources',
   },
+  {
+    id: 11,
+    imageSrc: 'video.png', 
+    title: ' A Beginners Guide to Composting | One Small Step',
+    summary: ' What is compost? How does composting work? Lucy Biggers is here to answer all your questions to show you what happens to our food waste — welcome to Composting 101.',
+    source: <a href="https://www.youtube.com/watch?v=XfuJJNGuS0Q"> NowThis Earth </a>,
+    helpful: ' #Seattle #Community #Home #Beginner #Impact',
+  },
 ];
 
 const VerticalCardList = () => {
   return (
     <div>
       <Box sx={{ my: 5, mx: 5}}>
-        <Typography  variant="title" textAlign="center" sx={{ fontSize: '300%' }}>Composting Blog Resources</Typography>
+        <Typography  variant="title" textAlign="center" color='#357560'sx={{ fontSize: '300%' }}>COMPOSTING BLOG RESOURCES</Typography>
         <Typography variant="subtitle1" sx={{ my: 2, fontSize: '110%'}}>
           Our team compiled a set of composting reources to help you with your composting journey. The resources vary from local blogs on how to set up your own composting bin to international blogs on how to composting operation, 
           to government data on Seattle composting and other national organizations working to help level the composting education in America.
@@ -139,7 +147,7 @@ const VerticalCardList = () => {
                       </Grid>
                       <Grid item>
                         <Typography variant="body2">
-                          <strong>Read More:</strong> {data.source}
+                          <strong>Find Out More:</strong> {data.source}
                         </Typography>
                         <Typography variant="body2">
                           <strong>Helpful With:</strong> {data.helpful}
