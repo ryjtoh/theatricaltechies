@@ -3,12 +3,16 @@ import NavBar from './Components/navBar';
 import BlogFeed from './Components/feedPage/blogFeed';
 import CompostBins from './Components/homePage/compostBins';
 import Intro from './Components/homePage/intro';
+import Hemlet from "react-helmet"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.css';
 
 function App() {
   return (
     <div>
+      <Hemlet>
+        <title>Sortable</title>
+      </Hemlet>
       <Router>
         <Routes>
           <Route path="/" element={<NavBar />}>

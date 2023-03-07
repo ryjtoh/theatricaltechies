@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&family=Lora:wght@500&family=Open+Sans:wght@700&display=swap');
+
+* {
+  font-family: "Libre Baskerville";
+}
+
 /* general page styling START */
 .pageTitle {
   display: flex;
@@ -59,6 +65,7 @@ body {
 /* make white bar appear when hovering over page options */
 .nav-links a:hover {
   border-bottom: 3px solid white;
+  color: white;
 }
 
 
@@ -135,12 +142,10 @@ p.introTag2 {
 
 .sectionParagraph h1 {
   color: #357560;
-  font-family: "Montesserat", sans-serif;
   font-weight: 400;
 }
 
 .sectionParagraph {
-  font-family: "Montesserat", sans-serif;
   font-weight: 100;
 }
 
@@ -149,7 +154,6 @@ p.introTag2 {
   text-align: right;
   color: #357560;
   font-weight: 400;
-  font-family: "Montesserat", sans-serif;
 }
 .sectionParagraphRight p {
   text-align: right;
@@ -241,14 +245,9 @@ a:hover {
 .droppable-container {
   width: 100px;
   height: 100px;
-  border: 6px dashed black;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.droppable-container.active {
-  opacity: 0.5;
 }
 
 /* Compost Bin END */

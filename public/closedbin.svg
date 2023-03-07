@@ -1,0 +1,14 @@
+<svg width="128" height="176" viewBox="0 0 128 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="128" height="176" fill="white"/>
+<line x1="16.4753" y1="58.5289" x2="28.4753" y2="172.529" stroke="#255E1C" stroke-width="9"/>
+<line y1="-4.5" x2="114.63" y2="-4.5" transform="matrix(-0.104685 0.994505 0.994505 0.104685 115 59)" stroke="#255E1C" stroke-width="9"/>
+<line x1="28.5" y1="171.5" x2="98.5" y2="171.5" stroke="#255E1C" stroke-width="9" stroke-linecap="round"/>
+<line x1="16.5" y1="58.5" x2="110.5" y2="58.5" stroke="#255E1C" stroke-width="9" stroke-linecap="round"/>
+<rect x="20" y="59" width="88" height="50" fill="#255E1C"/>
+<rect x="29" y="116" width="69" height="54" fill="#255E1C"/>
+<rect x="24" y="104" width="79" height="54" fill="#255E1C"/>
+<line x1="5" y1="37.5" x2="122" y2="37.5" stroke="#255E1C" stroke-width="9"/>
+<path d="M41 26L45.3301 33.5H36.6699L41 26Z" fill="#255E1C"/>
+<path d="M89 26L93.3301 33.5H84.6699L89 26Z" fill="#255E1C"/>
+<line x1="41" y1="30.5" x2="89" y2="30.5" stroke="#255E1C" stroke-width="9"/>
+</svg>
