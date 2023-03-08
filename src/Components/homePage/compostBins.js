@@ -150,7 +150,7 @@ const CompostBins = () => {
           onDragOver={handleDragOver}
           style={{ display: "flex", justifyContent: "center", flexDirection: "column", paddingBottom: "8rem", width: "200px" }}
         >
-          <img src={nonCompostBinState} alt="noncompostbin"/>
+          <img src={binState} alt="noncompostbin"/>
           <p style={{ paddingTop: "1rem" }}>NON-COMPOSTABLE</p>
         </div>
       </div>
