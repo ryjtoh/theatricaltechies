@@ -49,7 +49,7 @@ export default function Intro() {
               Our team felt this was an essential issue to address because it is fundamental to human life and the overall quality of life.
             </p>
           </div>
-      </div> 
+      </div>
     </div>
   );
 }
