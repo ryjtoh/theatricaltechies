@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
-import { Grid, ButtonBase, Paper, Typography, Box, Divider } from '@mui/material';
+import { Grid, ButtonBase, Paper, Typography, Box, Divider, ImageListItem } from '@mui/material';
 import style from '../../style.css';
 
 const Img = styled('img')({
@@ -127,9 +127,9 @@ const VerticalCardList = () => {
               >
                 <Grid container>
                   <Grid item xs={12} sm={6} md={12} sx={{ borderRadius: '3px' }}> 
-                    <ButtonBase sx={{ width: '100%', height: 128 }}>
+                    <ImageListItem sx={{ width: '100%', height: 128 }}>
                       <Img alt="complex" src={data.imageSrc} />
-                    </ButtonBase>
+                    </ImageListItem>
                   </Grid>
                   <Grid item xs={12} sm={6} md={12} container>
                     <Grid item xs container direction="column" spacing={2}>
