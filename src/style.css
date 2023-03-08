@@ -147,6 +147,8 @@ p.introTag2 {
 
 .sectionParagraph {
   font-weight: 100;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 /* when image is on right align text to right */
@@ -294,12 +296,18 @@ a:hover {
     }
     .sectionParagraph {
       text-align: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
     .sectionParagraphRight h1{
       text-align: center;
     }
     .sectionParagraphRight p{
       text-align: center;
+    }
+    .instructions {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     /* make nav bar font smaller so it all fits in one row */

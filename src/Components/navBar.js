@@ -27,9 +27,9 @@ export default function NavBar() {
           </div>
         </Link>
         <div className='pageLinks'>
-          <Link to='/' style={{ marginLeft: "30px" }}>Home</Link>
-          <Link to='/CompostBins' style={{ marginLeft: "30px" }}>Sort It!</Link>
-          <Link to='/BlogFeed' className='test' style={{ marginLeft: "30px" }}>Blog Feed</Link>
+          <Link to='/' >Home</Link>
+          <Link to='/CompostBins' >Sort It!</Link>
+          <Link to='/BlogFeed' className='test'>Blog Feed</Link>
         </div>
       </div>
       <Routes>
